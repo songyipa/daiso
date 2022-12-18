@@ -27,18 +27,17 @@ header {
 }
 
 
-
-header img {
-    width: 30px;
+.logo{
+    width: 60px;
+    margin-top:3px;
     margin-bottom: 100px;
 }
 .bt{
     color: #fff;
         position: absolute;
     right: 15px;
-
     cursor:pointer;
-    font-size:30px;
+    font-size:40px;
 }
 
 .bt2{
@@ -46,7 +45,7 @@ header img {
         position: absolute;
     right: 15px;
     cursor:pointer;
-    font-size:30px;
+    font-size:40px;
 }
 
 
@@ -68,7 +67,7 @@ header img {
 .sidenav a {
   text-decoration: none;
   transition: 0.3s;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 600;
 }
 
@@ -76,7 +75,7 @@ header img {
   position: absolute;
   top: 15px;
   right:15px;
-  font-size: 36px;
+  font-size: 45px;
   padding-left: 50px;
     border: none;
 }
@@ -91,12 +90,12 @@ table {
 }
 
 th {
-    padding: 12px 0;
+    padding: 15px 0;
     border-bottom: 1px solid #ebebeb;
     margin-top: 10px;
     color: #9a9a9a;
     font-family: Pretendard;
-    font-size: 16px;
+    font-size: 22px;
     font-weight:00;
 }
 
@@ -116,7 +115,7 @@ th span {
 th img {
     float: right;
     width: 7px;
-    padding-top: 2px;
+    padding-top: 6px;
 }
 
 
@@ -125,26 +124,22 @@ h1 {
     color: #fff;
     margin-bottom: 30px;
     font-weight: 200;
+
 }
 
 h2 {
     color: #fff;
     font-weight: 800;
     margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 header p {
     color: #fff;
-    line-height: 19px;
+    line-height: 23px;
     margin-bottom: 10px;
-    font-size: 12px;
+    font-size: 15px;
 }
-
-
-
-
-.con {}
 
 .con li {
     padding: 10px 0;
@@ -173,7 +168,7 @@ header p {
 .title span:nth-child(1){
     color: #eb0000;
         font-family: 'Akrobat', sans-serif;
-    font-size: 35px;  
+    font-size: 50px;  
 }
 .title span:nth-child(2){
     width: 30px;
@@ -189,9 +184,10 @@ header p {
 }
 
 .title p:nth-child(2){
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 800;
     color: #eb0000;
+    margin-top: -5px;
 }
 
 .title_sub{
@@ -228,19 +224,19 @@ header p {
 }
 
 .qa p:nth-child(1){
-    padding: 10px;
+    padding: 20px 10px;
     border-top: 1px solid #eb0000;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 800;
     color: #eb0000;
 }
 .qa p:nth-child(2){
         padding: 10px;
     border-top: 1px solid #ebebeb;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
     text-align: justify;
-    line-height: 22px;
+    line-height: 28px;
     letter-spacing: -1px;
 }
 
@@ -269,7 +265,7 @@ header p {
 }
 
 h4{
-    font-size: 29px; 
+    font-size: 33px; 
     border-bottom: 1px solid;
     margin-bottom: 10px;
     display: inline-block;
@@ -287,22 +283,22 @@ h5{
 }
 
 .t2{
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 800;
     color: #eb0000;
     padding: 5px 0;
 }
 .t3{
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
     text-align: justify;
-    line-height: 22px;
+    line-height: 28px;
     letter-spacing: -1px;
     padding: 5px 0 50px 0;
 }
 
 .next{
-    height: 110px;
+    height: 130px;
     background: #eb0000;
     padding: 15px;
 }
@@ -319,7 +315,7 @@ h5{
     .pho {
         margin-top: -60px;
         width: 100%;
-        max-width: 300px;
+        max-width: 340px;
         background-image: url(../img/p0rfhcgk3v.jpg);
         background-position: center;
         background-size: cover;
@@ -347,7 +343,7 @@ h5{
         margin-top: 250px;
         margin-bottom: 100px;
         text-align: right;
-        font-size: 10px;
+        font-size: 13px;
     }
 
 }
