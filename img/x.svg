@@ -3,11 +3,10 @@
 <svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 	 y="0px" viewBox="0 0 42.85 42.85" style="enable-background:new 0 0 42.85 42.85;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#FFFFFF;stroke-width:3;}
+	.st0{fill:none;stroke:#EB0000;stroke-width:3;}
 </style>
 <g>
-	<path id="패스_1" class="st0" d="M1.53,6.22h39.8"/>
-	<path id="패스_2" class="st0" d="M1.53,21.43h39.8"/>
-	<path id="패스_3" class="st0" d="M1.53,36.63h39.8"/>
+	<path id="패스_1" class="st0" d="M4.59,4.59l33.67,33.67"/>
+	<path id="패스_1_00000024712097780585863510000013532781073987072413_" class="st0" d="M4.59,38.26L38.26,4.59"/>
 </g>
 </svg>
