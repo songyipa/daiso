@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.674;}
+	.st1{clip-path:url(#SVGID_00000111162345706335879430000010420458178465440187_);}
+	.st2{fill:url(#사각형_39_00000022531456456749408970000007609185087573953156_);}
+	.st3{fill:url(#사각형_40_00000083809823891160923090000015096943312476247216_);}
+	.st4{fill:url(#패스_315_00000013169597689801601230000002804820593704291464_);}
+	.st5{opacity:0.52;fill:url(#패스_316_00000089568778368235985670000010403769603918002817_);enable-background:new    ;}
+	.st6{fill:url(#사각형_42_00000152232401266672194350000011005100034771522470_);}
+</style>
+<g id="그룹_305" transform="translate(18)" class="st0">
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="-16.3" y="0.9" width="998.3" height="998.3"/>
+		</defs>
+		<clipPath id="SVGID_00000037682025043901370630000006968129835715169408_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="그룹_304" style="clip-path:url(#SVGID_00000037682025043901370630000006968129835715169408_);">
+			
+				<linearGradient id="사각형_39_00000083791712023465444570000009096525973384919454_" gradientUnits="userSpaceOnUse" x1="-18.4706" y1="1000.2486" x2="-15.7871" y2="1000.2486" gradientTransform="matrix(2.277843e-14 -372 -372 -2.277843e-14 372575.375 -5871.9448)">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="1" style="stop-color:#FF0000"/>
+			</linearGradient>
+			
+				<rect id="사각형_39" x="-16.3" y="0.9" style="fill:url(#사각형_39_00000083791712023465444570000009096525973384919454_);" width="998.3" height="998.3"/>
+			
+				<linearGradient id="사각형_40_00000066516677005561556310000012521501735625248666_" gradientUnits="userSpaceOnUse" x1="-16.3246" y1="999.5944" x2="-13.6411" y2="999.5944" gradientTransform="matrix(2.277843e-14 372 125.688 -7.696171e-15 -125484.6406 6404.0552)">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="1" style="stop-color:#FF0000"/>
+			</linearGradient>
+			
+				<rect id="사각형_40" x="-16.3" y="0.9" style="fill:url(#사각형_40_00000066516677005561556310000012521501735625248666_);" width="337.3" height="998.3"/>
+			
+				<linearGradient id="패스_315_00000132766199376263290720000002436566668350235067_" gradientUnits="userSpaceOnUse" x1="-17.7262" y1="1001.5089" x2="-15.6707" y2="999.4507" gradientTransform="matrix(639.09 0 0 -639.093 11120.3477 639864.5625)">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="1" style="stop-color:#FF0000"/>
+			</linearGradient>
+			<path id="패스_315" style="fill:url(#패스_315_00000132766199376263290720000002436566668350235067_);" d="M982,1856.6
+				c473.6,0,857.5-383.9,857.5-857.5S1455.6,141.6,982,141.6S124.5,525.5,124.5,999.1S508.4,1856.6,982,1856.6z M982,604.2
+				c218.1,0,394.9,176.8,394.9,394.9S1200.1,1394,982,1394s-394.9-176.8-394.9-394.9c0,0,0,0,0,0C587.1,781,763.9,604.2,982,604.2
+				L982,604.2z"/>
+			
+				<linearGradient id="패스_316_00000153701112468244853930000007303843690236820908_" gradientUnits="userSpaceOnUse" x1="-16.398" y1="998.6803" x2="-16.398" y2="1002.1017" gradientTransform="matrix(296.9 0 0 -296.896 5250.6621 297271)">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="1" style="stop-color:#FF0000"/>
+			</linearGradient>
+			
+				<path id="패스_316" style="opacity:0.52;fill:url(#패스_316_00000153701112468244853930000007303843690236820908_);enable-background:new    ;" d="
+				M-16.3,792.3L780.5-4.4H-16.3V792.3z"/>
+		</g>
+	</g>
+</g>
+<linearGradient id="사각형_42_00000039843818425572133180000007025938308090980746_" gradientUnits="userSpaceOnUse" x1="1.2991" y1="1002.7144" x2="1.2991" y2="1001.1821" gradientTransform="matrix(-390 0 0 282 983.3622 -281777.9375)">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+</linearGradient>
+<rect id="사각형_42" x="-46.6" y="363.9" style="fill:url(#사각형_42_00000039843818425572133180000007025938308090980746_);" width="1046.6" height="756.7"/>
+</svg>
