@@ -27,26 +27,26 @@ header {
 
 
 .logo{
-    width: 60px;
+    width: 50px;
     margin-top:3px;
     margin-bottom: 100px;
 }
 .bt{
-    color: #fff;
         position: absolute;
     right: 15px;
     cursor:pointer;
-    width: 45px;
+    width: 40px;
     padding: 5px 0 ;
 box-sizing: content-box;
 }
 
 .bt2{
-    color: #eb0000;
         position: absolute;
     right: 15px;
     cursor:pointer;
-    font-size:40px;
+    width: 40px;
+    padding: 5px 0 ;
+box-sizing: content-box;
 }
 
 
@@ -76,10 +76,9 @@ box-sizing: content-box;
   position: absolute;
   top: 15px;
   right:15px;
-  font-size: 45px;
   padding-left: 50px;
     border: none;
-    width: 45px;
+    width: 40px;
     padding: 5px 0 ;
 box-sizing: content-box;
 }
@@ -94,25 +93,23 @@ table {
 }
 
 th {
-    padding: 15px 0;
+    padding: 18px 0;
     border-bottom: 1px solid #ebebeb;
     margin-top: 10px;
     color: #9a9a9a;
-    font-family: Pretendard;
-    font-size: 22px;
-    font-weight:00;
+        font-size: 18px;
 }
 
 th a{
-    font-weight: 500;
+    font-weight: 700;
+
 }
 
-th span {
+th span{
     color: #D82727;
-    font-weight: 900;
-    padding-right: 5px;
-    font-family: 'Akrobat ExtraBold', sans-serif;
-    padding-right: 10px;
+    font-weight: 400;
+    font-family: 'Akrobat ExtraBold';
+    padding-right: 15px;
 }
 
 
@@ -128,21 +125,22 @@ h1 {
     color: #fff;
     margin-bottom: 30px;
     font-weight: 200;
-
+    font-size: 53px;
+    font-weight: 100;
 }
 
 h2 {
     color: #fff;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 10px;
     font-size: 35px;
 }
 
 header p {
     color: #fff;
-    line-height: 23px;
-    margin-bottom: 10px;
-    font-size: 15px;
+    line-height: 25px;
+    font-size: 16px;
+    margin-bottom: 50px;
 }
 
 .con li {
@@ -169,15 +167,15 @@ header p {
     margin-top: 50px;
     margin-bottom: 90px;
 }
-.title span:nth-child(1){
+.count{
     color: #eb0000;
         font-family: 'Akrobat', sans-serif;
-    font-size: 50px;  
+    font-size: 60px;  
 }
 .title span:nth-child(2){
-    width: 30px;
+    width: 38px;
     display: inline-block;
-    border-bottom: 1px solid #3B3B3B;
+    border-bottom: 1px solid #9a9a9a;
     margin-left: 5px;
 }
 
@@ -185,6 +183,7 @@ header p {
     font-size: 12px;
     font-weight: 600;
     margin-left: 5px;
+    color: #9a9a9a;
 }
 
 .title p:nth-child(2){
@@ -199,12 +198,12 @@ header p {
     padding-left: 10px;
 }
 .title_sub p:nth-child(1){
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 700;
     padding-bottom: 3px;
 }
 .title_sub p:nth-child(2){
-    font-size: 15px;
+    font-size: 16px;
     font-weight:500;
 }
 
@@ -235,12 +234,12 @@ header p {
     color: #eb0000;
 }
 .qa p:nth-child(2){
-        padding: 10px;
+        padding: 20px 10px;
     border-top: 1px solid #ebebeb;
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 400;
     text-align: justify;
-    line-height: 28px;
+    line-height: 30px;
     letter-spacing: -1px;
 }
 
@@ -269,10 +268,11 @@ header p {
 }
 
 h4{
-    font-size: 33px; 
+    font-size: 36px; 
     border-bottom: 1px solid;
     margin-bottom: 10px;
     display: inline-block;
+    font-weight: 200;
 }
 
 .t1{
@@ -293,12 +293,12 @@ h5{
     padding: 5px 0;
 }
 .t3{
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 400;
     text-align: justify;
-    line-height: 28px;
+    line-height: 30px;
     letter-spacing: -1px;
-    padding: 5px 0 50px 0;
+    padding: 5px 0 90px 0;
 }
 
 .next{
@@ -317,9 +317,9 @@ h5{
 
 @media all and (max-width:767px) {
     .pho {
-        margin-top: -20px;
+        margin-top: -80px;
         width: 100%;
-        max-width: 450px;
+        max-width: 370px;
         background-image: url(../img/p0rfhcgk3v.jpg);
         background-position: center;
         background-size: cover;
@@ -331,8 +331,8 @@ h5{
     h3 {
         margin-bottom: 10px;
         color: #eb0000;
-        font-size: 30px;
-        font-weight: 800;
+        font-size: 35px;
+        font-weight: 700;
     }
 
     .inner {
@@ -344,10 +344,10 @@ h5{
     }
     
     .pho_t{
-        margin-top: 360px;
-        margin-bottom: 100px;
+        margin-top: 300px;
+        margin-bottom: 150px;
         text-align: right;
-        font-size: 13px;
+        font-size: 14px;
     }
 
 }
