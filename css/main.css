@@ -26,7 +26,7 @@ header {
 
 
 .logo{
-    width: 42px;
+    width: 47px;
     margin-top:3px;
     margin-bottom: 70px;
 }
@@ -35,17 +35,19 @@ header {
         position: absolute;
     right: 15px;
     cursor:pointer;
-    font-size:40px;
+    font-size:50px;
     font-weight: 100;
-    margin-top: -10px;
+    margin-top: -12px;
 }
 
 .bt2{
-    color: #eb0000;
-    position: absolute;
+    color: #3B3B3B;
+        position: absolute;
     right: 15px;
     cursor:pointer;
     font-size:40px;
+    font-weight: 100;
+    margin-top: -10px;
 }
 
 
@@ -127,12 +129,12 @@ h2 {
     font-size: 40px;
 }
 
-.inner p {
+.text22{
     color: #3B3B3B;
-    line-height: 20px;
+    line-height: 24px;
     margin-bottom: 10px;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 h6{
@@ -170,67 +172,74 @@ p a{
     margin: 5px 0;
 }
 
+
+
 .bt22{
     text-align: right;
 }
 
-.con li {
-    padding: 10px 0;
-    border-bottom: 1px solid #ccc;
+footer{
+    margin-top: 100px;
+    width: 100%;
+    background: #ebebeb;
+    padding: 40px 20px 100px 20px;
+    color: #ccc;
 }
 
-.con li span {
-    color: #eb0000;
-    font-family: 'Akrobat', sans-serif;
+footer p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 0;
+    color: #898989;
+}
+
+footer p span{
+    font-weight: 900;
     padding-right: 10px;
-    font-size: 18px;
+    color: #898989;
 }
-
-.con li {
-    font-size: 18px;
-    font-weight: 700;
-}
-
-
 
 
 .title{
-    margin-top: 50px;
-    margin-bottom: 90px;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    text-align: center;
 }
 .title span:nth-child(1){
-    color: #eb0000;
-        font-family: 'Akrobat', sans-serif;
-    font-size: 50px;  
+    color: #ff0000;
+    font-size: 14px;  
+    font-weight: 800;
 }
 .title span:nth-child(2){
-    width: 30px;
+    width: 40px;
     display: inline-block;
-    border-bottom: 1px solid #3B3B3B;
+    border-bottom: 1px solid #747474;
     margin-left: 5px;
+    margin-bottom: 4px;
 }
 
 .title span:nth-child(3){
     font-size: 12px;
     font-weight: 600;
     margin-left: 5px;
+    color: #747474;
+    letter-spacing: 1px;
 }
 
 .title p:nth-child(2){
     font-size: 35px;
     font-weight: 800;
-    color: #eb0000;
-    margin-top: -5px;
+    color: #3B3B3B;
+    margin-top: 8px;
 }
 
 .title_sub{
-    border-left: 7px solid #eb0000;
+    border-left: 7px solid #ff0000;
     padding-left: 10px;
 }
 .title_sub p:nth-child(1){
     font-size: 25px;
     font-weight: 700;
-    padding-bottom: 3px;
 }
 .title_sub p:nth-child(2){
     font-size: 15px;
@@ -258,10 +267,10 @@ p a{
 
 .qa p:nth-child(1){
     padding: 20px 10px;
-    border-top: 1px solid #eb0000;
+    border-top: 1px solid #ff0000;
     font-size: 20px;
     font-weight: 800;
-    color: #eb0000;
+    color: #ff0000;
 }
 .qa p:nth-child(2){
         padding: 10px;
@@ -340,8 +349,9 @@ h5{
 
 .next{
     height: 130px;
-    background: #eb0000;
-    padding: 15px;
+    background: linear-gradient( to left, #ff7777, red );
+    padding: 20px;
+    position: relative;
 }
 
 .next p{
@@ -350,6 +360,12 @@ h5{
     font-weight: 600;
 }
 
+.next img{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 200px;
+}
 
 
 @media all and (max-width:767px) {
@@ -359,7 +375,7 @@ h5{
         background-image: url(../img/main_%EB%8C%80%EC%A7%80%201.png);
         background-position: center;
         background-size: cover;
-        height: 370px;
+        height: 460px;
         position: absolute;
         right: 0;
         box-sizing: border-box;
@@ -369,7 +385,7 @@ h5{
         color: #ff0000;
         font-size: 35px;
         font-weight: 800;
-        margin-top: 450px;
+        margin-top: 550px;
         text-align: center;
     }
 
@@ -378,7 +394,7 @@ h5{
         max-width: 600px;
         margin: 0 auto;
         position: relative;
-        padding: 15px 15px 50px 15px;
+        padding: 20px;
     }
     
     .pho_t{
