@@ -20,6 +20,23 @@ body {
     margin: 0 auto;
 }
 
+    .inner {
+        width: 100%;
+        max-width: 750px;
+        margin: 0 auto;
+        position: relative;
+        padding: 20px;
+    }
+
+    .con_inner {
+        width: 100%;
+        max-width: 750px;
+        margin: 0 auto;
+        position: relative;
+        padding: 15px;
+    }
+
+
 header {
     background: #fff;
 }
@@ -28,7 +45,7 @@ header {
 .logo{
     width: 47px;
     margin-top:3px;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 .bt{
     color: #3B3B3B;
@@ -71,10 +88,10 @@ header {
     color: #3B3B3B;
         position: absolute;
     right: 15px;
-    top:-5px;
+    top:-10px;
     cursor:pointer;
-    font-size:60px;
-    font-weight: 300;
+    font-size:80px;
+    font-weight: 200;
 }
 
 table {
@@ -117,7 +134,7 @@ th img {
 
 h1 {
     color: #ff0000;
-    margin-bottom: 26px;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 18px;
 }
@@ -126,15 +143,17 @@ h2 {
     color: #3B3B3B;
     font-weight: 800;
     margin-bottom: 10px;
-    font-size: 40px;
+    font-size: 35px;
+    z-index: 15;
 }
 
 .text22{
     color: #3B3B3B;
     line-height: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 18px;
     font-weight: 500;
+    z-index: 15;
 }
 
 h6{
@@ -273,10 +292,10 @@ footer p span{
     color: #ff0000;
 }
 .qa p:nth-child(2){
-        padding: 10px;
+        padding: 20px 10px;
     border-top: 1px solid #ebebeb;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
     text-align: justify;
     line-height: 28px;
     letter-spacing: -1px;
@@ -389,13 +408,7 @@ h5{
         text-align: center;
     }
 
-    .inner {
-        width: 100%;
-        max-width: 600px;
-        margin: 0 auto;
-        position: relative;
-        padding: 20px;
-    }
+
     
     .pho_t{
         margin-top: 360px;
@@ -408,16 +421,28 @@ h5{
 
 @media all and (min-width:768px) {
     .pho {
-        margin-top: -290px;
         width: 100%;
-        max-width: 300px;
-        background-image: url(../img/p0rfhcgk3v.jpg);
+        max-width: 500px;
+        background-image: url(../img/main_%EB%8C%80%EC%A7%80%201.png);
         background-position: center;
         background-size: cover;
-        height: 300px;
+        height: 500px;
         position: absolute;
         right: 0;
+        z-index: 0;
+        top: 0;
     }
+    
+    .bt{
+    color: #fff;
+        position: absolute;
+    right: 15px;
+    cursor:pointer;
+    font-size:50px;
+    font-weight: 100;
+    margin-top: -12px;
+    z-index: 100;
+}
 
     h3 {
         margin-bottom: 10px;
@@ -428,7 +453,7 @@ h5{
 
     .inner {
         width: 100%;
-        max-width: 600px;
+        max-width: 750px;
         margin: 0 auto;
         position: relative;
         padding: 15px 15px 20px 15px;
