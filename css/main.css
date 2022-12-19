@@ -7,8 +7,18 @@
 
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
 
-@import url('https://fonts.cdnfonts.com/css/akrobat');
 
+@font-face {
+  font-family: 'Akrobat';
+  src: url('../font/Akrobat.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Akrobat2';
+  src: url('../font/Akrobat2.woff') format('woff');
+  font-display: swap;
+}
 
 
 body {
@@ -23,20 +33,20 @@ body {
 header {
     background: #eb0000;
     color: #fff;
+    height: 400px;
 }
 
 
 .logo{
-    width: 50px;
+    width: 45px;
     margin-top:3px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 .bt{
         position: absolute;
     right: 15px;
     cursor:pointer;
-    width: 40px;
-    padding: 5px 0 ;
+    width: 38px;
 box-sizing: content-box;
 }
 
@@ -65,12 +75,6 @@ box-sizing: content-box;
     display: none;
 }
 
-.sidenav a {
-  text-decoration: none;
-  transition: 0.3s;
-    font-size: 22px;
-    font-weight: 600;
-}
 
 .sidenav .closebtn {
   position: absolute;
@@ -87,9 +91,7 @@ table {
     width: 100%;
     text-align: left;
     margin: 0 auto;
-    font-size: 15px;
     max-width: 600px;
-    font-weight: 500;
 }
 
 th {
@@ -97,19 +99,20 @@ th {
     border-bottom: 1px solid #ebebeb;
     margin-top: 10px;
     color: #9a9a9a;
-        font-size: 18px;
 }
 
 th a{
     font-weight: 700;
-
+     font-size: 18px;
 }
 
 th span{
     color: #D82727;
     font-weight: 400;
-    font-family: 'Akrobat ExtraBold';
-    padding-right: 15px;
+    font-family: 'Akrobat2';
+    padding-right: 20px;
+    width: 100px;
+    font-size: 18px;
 }
 
 
@@ -123,9 +126,10 @@ th img {
 
 h1 {
     color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top: 50px;
     font-weight: 200;
-    font-size: 53px;
+    font-size: 45px;
     font-weight: 100;
 }
 
@@ -133,12 +137,12 @@ h2 {
     color: #fff;
     font-weight: 700;
     margin-bottom: 10px;
-    font-size: 35px;
+    font-size: 32px;
 }
 
 header p {
     color: #fff;
-    line-height: 25px;
+    line-height: 24px;
     font-size: 16px;
     margin-bottom: 50px;
 }
@@ -190,7 +194,6 @@ header p {
     font-size: 35px;
     font-weight: 800;
     color: #eb0000;
-    margin-top: -5px;
 }
 
 .title_sub{
@@ -236,10 +239,10 @@ header p {
 .qa p:nth-child(2){
         padding: 20px 10px;
     border-top: 1px solid #ebebeb;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     text-align: justify;
-    line-height: 30px;
+    line-height: 28px;
     letter-spacing: -1px;
 }
 
@@ -293,10 +296,10 @@ h5{
     padding: 5px 0;
 }
 .t3{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     text-align: justify;
-    line-height: 30px;
+    line-height: 28px;
     letter-spacing: -1px;
     padding: 5px 0 90px 0;
 }
@@ -317,7 +320,7 @@ h5{
 
 @media all and (max-width:767px) {
     .pho {
-        margin-top: -80px;
+        margin-top: -60px;
         width: 100%;
         max-width: 370px;
         background-image: url(../img/p0rfhcgk3v.jpg);
@@ -344,7 +347,7 @@ h5{
     }
     
     .pho_t{
-        margin-top: 300px;
+        margin-top: 320px;
         margin-bottom: 150px;
         text-align: right;
         font-size: 14px;
