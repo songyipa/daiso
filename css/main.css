@@ -7,8 +7,6 @@
 
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
 
-@import url('https://fonts.cdnfonts.com/css/akrobat');
-
 
 
 body {
@@ -218,7 +216,7 @@ footer p span {
 
 
 .title {
-    margin-top: 80px;
+    margin-top: 70px;
     margin-bottom: 70px;
     text-align: center;
 }
@@ -246,7 +244,7 @@ footer p span {
 }
 
 .title p:nth-child(2) {
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 800;
     color: #3B3B3B;
     margin-top: 8px;
@@ -298,7 +296,7 @@ footer p span {
     padding: 20px 10px;
     border-top: 1px solid #ebebeb;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     text-align: justify;
     line-height: 28px;
     letter-spacing: -1px;
@@ -358,7 +356,7 @@ h4 {
     font-size: 22px;
     font-weight: 800;
     color: #ff0000;
-    padding: 5px 0;
+    padding: 15px 0;
     line-height: 30px;
 }
 
@@ -368,13 +366,13 @@ h4 {
     text-align: justify;
     line-height: 28px;
     letter-spacing: -1px;
-    padding: 10px 0 80px 0;
+    padding: 0px 0 80px 0;
 }
 
 
 h5 {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
     color: #868686;
     padding-top: 5px;
     padding-bottom: 100px;
@@ -398,7 +396,7 @@ h5 {
 
 .next {
     
-    background: linear-gradient(to left, #ff7777, red);
+    background: #f5f5f5;
     position: relative;
 }
 
@@ -408,7 +406,7 @@ h5 {
 }
 
 .next p {
-    color: #fff;
+    color: #898989;
     font-size: 20px;
     font-weight: 600;
 }
@@ -422,9 +420,14 @@ h5 {
 
 
 .con2 {
-    background: #f0f0f0;
+    background: rgba(235, 235, 235, 0.19);
     width: 100%;
     margin-top: -100px;
+}
+
+.con2 .inner{
+    
+    
 }
 
 @media all and (max-width:767px) {
@@ -449,7 +452,7 @@ h5 {
     .pho {
         width: 95%;
         margin-top: 20px;
-        background-image: url(../img/main.svg);
+        background-image: url(../img/main2.svg);
         background-position: right top;
         background-size: contain;
         background-repeat: no-repeat;
@@ -496,10 +499,10 @@ h5 {
         position: relative;
         padding: 20px;
         height: 650px;
-        background-image: url(../img/main.svg);
-        background-size: 550px;
+        background-image: url(../img/main2.svg);
+        background-size: 330px;
         background-repeat: no-repeat;
-        background-position: right top;
+        background-position: right;
     }
 
 
