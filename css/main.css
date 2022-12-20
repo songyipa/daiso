@@ -25,7 +25,7 @@ body {
     max-width: 750px;
     margin: 0 auto;
     position: relative;
-    padding: 15px;
+    padding: 20px;
 }
 
 
@@ -343,14 +343,6 @@ footer p span {
     text-align: center;
 }
 
-h4 {
-    font-size: 33px;
-    border-bottom: 1px solid;
-    margin-bottom: 10px;
-    display: inline-block;
-    text-align: center;
-    padding-bottom: 2px;
-}
 
 .con2_t1 {
     font-size: 22px;
@@ -366,7 +358,6 @@ h4 {
     text-align: justify;
     line-height: 28px;
     letter-spacing: -1px;
-    padding: 0px 0 80px 0;
 }
 
 
@@ -374,8 +365,8 @@ h5 {
     font-size: 18px;
     font-weight: 600;
     color: #868686;
-    padding-top: 5px;
-    padding-bottom: 100px;
+    padding-top: 15px;
+    padding-bottom: 60px;
 }
 
 .t2 {
@@ -396,8 +387,8 @@ h5 {
 
 .next {
     
-    background: #f5f5f5;
-    position: relative;
+    background-image: url(../img/next_back.svg);
+    background-size: cover;
 }
 
 .next .inner{
@@ -406,7 +397,7 @@ h5 {
 }
 
 .next p {
-    color: #898989;
+    color: #fff;
     font-size: 20px;
     font-weight: 600;
 }
@@ -420,17 +411,25 @@ h5 {
 
 
 .con2 {
-    background: rgba(235, 235, 235, 0.19);
+    background: rgb(247, 247, 247);
     width: 100%;
     margin-top: -100px;
 }
 
 .con2 .inner{
-    
-    
 }
 
 @media all and (max-width:767px) {
+    
+    h4 {
+    font-size: 28px;
+    border-bottom: 1px solid;
+    margin-bottom: 7px;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 1px;
+}
+
 
     .inner {
         width: 100%;
@@ -483,6 +482,16 @@ h5 {
 }
 
 @media all and (min-width:768px) {
+    
+    h4 {
+    font-size: 33px;
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
 
     .inner {
         width: 100%;
