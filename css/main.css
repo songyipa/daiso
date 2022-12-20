@@ -500,11 +500,10 @@ h5 {
         padding: 20px;
         height: 650px;
         background-image: url(../img/main2.svg);
-        background-size: 330px;
+        background-size: 500px;
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: right top;
     }
-
 
 
     .pho {
