@@ -22,10 +22,11 @@ body {
 
 .con_inner {
     width: 100%;
-    max-width: 750px;
+    max-width: 650px;
     margin: 0 auto;
     position: relative;
     padding: 20px;
+    
 }
 
 
@@ -38,6 +39,10 @@ header {
     width: 47px;
     margin-top: 3px;
     margin-bottom: 60px;
+}
+.logo2 {
+    width: 47px;
+    margin-top: 3px;
 }
 
 .bt {
@@ -92,7 +97,7 @@ table {
     text-align: left;
     margin: 0 auto;
     font-size: 15px;
-    max-width: 750px;
+    max-width: 650px;
     font-weight: 500;
 
 }
@@ -216,8 +221,8 @@ footer p span {
 
 
 .title {
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 30px;
+    margin-bottom: 60px;
     text-align: center;
 }
 
@@ -271,7 +276,7 @@ footer p span {
     text-align: center;
     display: table;
     width: 100%;
-    max-height: 200px;
+    
 }
 
 .product-img-div {
@@ -281,7 +286,8 @@ footer p span {
 
 .product-img {
     width: 100%;
-    max-width: 750px;
+    max-width: 650px;
+    
 }
 
 .qa p:nth-child(1) {
@@ -393,7 +399,7 @@ h5 {
 
 .next .inner{
     position: relative;
-    height: 130px;
+    height: 150px;
 }
 
 .next p {
@@ -411,18 +417,23 @@ h5 {
 
 
 .con2 {
-    background: rgb(247, 247, 247);
+    background: rgb(240, 240, 240);
     width: 100%;
     margin-top: -100px;
 }
 
-.con2 .inner{
-}
+.inner_mainbt {
+        width: 100%;
+        max-width: 650px;
+        margin: 0 auto;
+        position: relative;
+        padding: 20px;
+    }
 
 @media all and (max-width:767px) {
     
     h4 {
-    font-size: 28px;
+    font-size: 30px;
     border-bottom: 1px solid;
     margin-bottom: 7px;
     display: inline-block;
@@ -433,7 +444,7 @@ h5 {
 
     .inner {
         width: 100%;
-        max-width: 750px;
+        max-width: 650px;
         margin: 0 auto;
         position: relative;
         padding: 20px;
@@ -441,7 +452,7 @@ h5 {
 
     .inner1 {
         width: 100%;
-        max-width: 750px;
+        max-width: 650px;
         margin: 0 auto;
         position: relative;
         padding: 20px;
@@ -484,7 +495,7 @@ h5 {
 @media all and (min-width:768px) {
     
     h4 {
-    font-size: 33px;
+    font-size: 30px;
     border-bottom: 1px solid;
     margin-bottom: 10px;
     display: inline-block;
@@ -495,7 +506,7 @@ h5 {
 
     .inner {
         width: 100%;
-        max-width: 750px;
+        max-width: 650px;
         margin: 0 auto;
         position: relative;
         padding: 20px;
@@ -503,13 +514,13 @@ h5 {
 
     .inner1 {
         width: 100%;
-        max-width: 750px;
+        max-width: 650px;
         margin: 0 auto;
         position: relative;
         padding: 20px;
         height: 650px;
         background-image: url(../img/main2.svg);
-        background-size: 500px;
+        background-size: 450px;
         background-repeat: no-repeat;
         background-position: right top;
     }
@@ -536,7 +547,7 @@ h5 {
 
     .inner {
         width: 100%;
-        max-width: 750px;
+        max-width: 650px;
         margin: 0 auto;
         position: relative;
         padding: 15px 15px 20px 15px;
