@@ -36,12 +36,12 @@ header {
 
 
 .logo {
-    width: 47px;
+    width: 44px;
     margin-top: 3px;
     margin-bottom: 60px;
 }
 .logo2 {
-    width: 47px;
+    width: 44px;
     margin-top: 3px;
 }
 
@@ -520,9 +520,9 @@ h5 {
         padding: 20px;
         height: 650px;
         background-image: url(../img/main2.svg);
-        background-size: 450px;
+        background-size: 400px;
         background-repeat: no-repeat;
-        background-position: right top;
+        background-position: right;
     }
 
 
