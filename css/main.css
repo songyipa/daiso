@@ -207,7 +207,7 @@ th img {
 
     h2 {
         color: #fff;
-        font-size: 50px;
+        font-size:30px;
         font-weight: 600;
     }
 
@@ -240,7 +240,7 @@ th img {
 
     .p1-2 {
         width: 43%;
-        height: 100px;
+        height: 120px;
         background: #fff;
         float: left;
         background: url(../img/bg_%EB%8C%80%EC%A7%80%201%20%EC%82%AC%EB%B3%B8.png);
@@ -249,7 +249,7 @@ th img {
 
     .p1-22 {
         width: 43%;
-        height: 100px;
+        height: 120px;
         background: #fff;
         float: left;
         background: url(../img/bg_%EB%8C%80%EC%A7%80%201.png);
