@@ -135,7 +135,7 @@ th img {
     
 }
 
-@media all and (max-width:1079px) {
+@media all and (max-width:1023px) {
     
     .sidenav .closebtn {
     width: 40px;
@@ -278,7 +278,9 @@ th img {
 }
 
 
-@media all and (min-width:1080px) {
+@media all and (min-width:1024px) {
+    
+
     
     .sidenav .closebtn {
     width: 60px;
@@ -316,8 +318,8 @@ th img {
     .fir2 {
         margin-top: 10px;
         color: #fff;
-        font-size: 18px;
-        line-height: 26px;
+        font-size: 16px;
+        line-height: 24px;
     }
 
     .fir {
@@ -331,7 +333,7 @@ th img {
 
     h2 {
         color: #fff;
-        font-size: 70px;
+        font-size: 40px;
         font-weight: 500;
 
     }
