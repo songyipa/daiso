@@ -162,7 +162,7 @@ th img {
     }
 
     h1 {
-        
+        color: #000;
         font-size: 36px;
         font-weight: 700;
         display: inline-block;
@@ -198,7 +198,7 @@ th img {
     }
 
     .p1-1 {
-        width: 86%;
+        width: 90%;
         background: linear-gradient(45deg, #ff4747, #ff0000);
         padding: 20px;
         height: 340px;
@@ -239,7 +239,7 @@ th img {
     }
 
     .p1-2 {
-        width: 43%;
+        width: 45%;
         height: 120px;
         background: #fff;
         float: left;
@@ -248,7 +248,7 @@ th img {
     }
 
     .p1-22 {
-        width: 43%;
+        width: 45%;
         height: 120px;
         background: #fff;
         float: left;
@@ -403,8 +403,9 @@ th img {
     }
 
     h1 {
+        color: #000;
         font-size:70px;
-        font-weight: 200;
+        font-weight: 600;
         display: inline-block;
     }
 
