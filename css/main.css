@@ -14,66 +14,6 @@ body {
 
 }
 
-.sidenav {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #fff;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding: 20px;
-    display: none;
-}
-
-
-
-
-.sidenav .inner{
-    padding-top: 80px;
-}
-
-table {
-    width: 100%;
-    text-align: left;
-    margin: 0 auto;
-    font-size: 15px;
-    max-width: 1080px;
-    font-weight: 500;
-
-}
-
-th {
-    padding: 18px 0;
-    border-bottom: 1px solid #ebebeb;
-    margin-top: 10px;
-    color: #9a9a9a;
-    font-family: Pretendard;
-    font-size: 18px;
-}
-
-th a {
-    font-weight: 600;
-}
-
-th span {
-    color: #ff0000;
-    font-weight: 700;
-    padding-right: 20px;
-    display: inline-block;
-    width: 40px;
-}
-
-
-th img {
-    float: right;
-    width: 20px;
-    padding-top: 2px;
-    
-}
-
 
 .sidenav {
     height: 100%;
@@ -96,44 +36,33 @@ th img {
     padding-top: 80px;
 }
 
-table {
-    width: 100%;
-    text-align: left;
-    margin: 0 auto;
-    font-size: 15px;
-    max-width: 1080px;
-    font-weight: 500;
+    table {
+        width: 100%;
+        text-align: left;
+        margin: 0 auto;
+        font-size: 15px;
+        max-width: 1080px;
+        font-weight: 500;
 
-}
+    }
 
-th {
-    padding: 18px 0;
-    border-bottom: 1px solid #ebebeb;
-    margin-top: 10px;
-    color: #9a9a9a;
-    font-family: Pretendard;
-    font-size: 18px;
-}
+    th {
+        padding: 15px 0;
+        font-size: 20px;
+    }
 
-th a {
-    font-weight: 600;
-}
+    th a {
+        font-weight: 700;
+    }
 
-th span {
-    color: #ff0000;
-    font-weight: 700;
-    padding-right: 20px;
-    display: inline-block;
-    width: 40px;
-}
-
-
-th img {
-    float: right;
-    width: 20px;
-    padding-top: 2px;
-    
-}
+    th span {
+        color: #ff0000;
+        font-weight: 800;
+        padding-right: 15px;
+        display: inline-block;
+        font-size: 12px;
+        vertical-align: 6px;
+    }
 
 @media all and (max-width:1023px) {
     
@@ -169,14 +98,14 @@ th img {
     }
 
     .jm {
-        width: 8px;
+        width: 7px;
         margin-left: 1px;
         margin-top: 28px;
     }
 
     .jm2 {
-        width: 7px;
-        margin-top: 7px;
+        width: 6px;
+        margin-top: 8px;
         margin-left: 3px;
     }
 
@@ -283,7 +212,7 @@ th img {
 
     
     .sidenav .closebtn {
-    width: 60px;
+    width: 40px;
     position: absolute;
     top: 60px;
     right: 60px;
@@ -318,17 +247,17 @@ th img {
     .fir2 {
         margin-top: 10px;
         color: #fff;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 24px;
     }
 
     .fir {
         color: #fff;
         text-align: right;
-        font-size: 18px;
+        font-size: 15px;
         position: absolute;
         bottom: 70px;
-        right: 210px;
+        right: 230px;
     }
 
     h2 {
@@ -339,7 +268,7 @@ th img {
     }
 
     .menu {
-        width: 60px;
+        width: 40px;
         position: fixed;
         top: 60px;
         right: 60px;
@@ -357,7 +286,7 @@ th img {
         height: 25%;
         background: #fff;
         float: left;
-        background: url(../img/bg_%EB%8C%80%EC%A7%80%201%20%EC%82%AC%EB%B3%B8.png);
+        background: 
         background-size: cover;
     }
 
@@ -391,7 +320,7 @@ th img {
     }
 
     .p2-2 p {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 25px;
         color: #777777;
     }
@@ -410,14 +339,14 @@ th img {
     }
 
     .jm {
-        width: 15px;
+        width: 13px;
         margin-top: 55px;
         margin-left: 3px;
     }
 
     .jm2 {
-        width: 14px;
-        margin-top: 13px;
+        width: 12px;
+        margin-top: 15px;
         margin-left: 8px;
     }
 
