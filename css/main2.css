@@ -127,7 +127,7 @@ body {
 
     .body_in {
         width: 100%;
-        padding: 100px 20px 0 20px;
+        padding: 80px 20px 0 20px;
     }
 
     .body1 {
@@ -190,7 +190,7 @@ body {
         height: 350px;
         background-image: url(../img/con1.jpg);
         position: absolute;
-        top: 340px;
+        top: 290px;
         right: 0;
         background-size: cover;
         z-index: -100;
@@ -228,7 +228,7 @@ body {
         font-size: 13px;
         font-weight: 600;
         color: #afafaf;
-        margin-bottom: 80px;
+        margin-bottom: 60px;
         padding-left: 20px;
     }
 
@@ -421,11 +421,11 @@ body {
     }
 
     .cover {
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
         background-image: url(../img/con1.jpg);
         position: absolute;
-        top: 100px;
+        top: 70px;
         right: 0;
         background-size: cover;
         z-index: -100;
@@ -477,7 +477,7 @@ body {
         font-weight: 600;
         color: #afafaf;
         margin-top: 3px;
-        margin-bottom: 200px;
+        margin-bottom: 270px;
         padding-left: 20px;
     }
 
