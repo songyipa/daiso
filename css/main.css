@@ -170,9 +170,8 @@ body {
     .p1-2 {
         width: 45%;
         height: 120px;
-        background: #fff;
+        background: #f2f2f2;
         float: left;
-        background: url(../img/bg_%EB%8C%80%EC%A7%80%201%20%EC%82%AC%EB%B3%B8.png);
         background-size: cover;
     }
 
@@ -183,6 +182,7 @@ body {
         float: left;
         background: url(../img/bg_%EB%8C%80%EC%A7%80%201.png);
         background-size: 100% 100%;
+        background-repeat: no-repeat;
     }
 
     footer {
