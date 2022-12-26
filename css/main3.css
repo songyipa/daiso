@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    font-weight: 300;
+    color: #000;
+    letter-spacing: -0.5px;
+}
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+
+
+
+body {
+    width: 100%;
+    background: #fff;
+    height: 100%;
+    font-family: 'Pretendard', 'Akrobat', 'Apple SD Gothic Neo', Sans-serif;
+}
+
+.remote {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 70px;
+    background: #ccc;
+    z-index: 2000;
+}
+
+.remote_1 {
+    padding: 10px;
+    width: 70px;
+    background: #FF6DA6;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.36);
+}
+    .next h2 {
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 700;
+
+    }
+
+    .next {
+        border-bottom: 1px solid #000;
+        display: inline-block;
+        padding-bottom: 10px;
+        float: right;
+        cursor: pointer;
+    }
+
+    .next img {
+        width: 75px;
+        margin-top: 5px;
+        padding-left: 7px;
+    }
+
+    footer {
+        width: 100%;
+        padding: 20px;
+        background: #efefef;
+    }
+
+    footer p {
+        font-size: 12px;
+        line-height: 20px;
+        color: #777777;
+    }
+
+    footer p span {
+        font-weight: 800;
+        margin-right: 10px;
+        color: #777777;
+    }
+
+
+
+@media all and (max-width:1023px) {
+
+    .logo {
+        width: 40px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    .body1 {
+        width: 100%;
+        position: relative;
+        padding: 20px 20px 150px 20px;
+    }
+
+    .body2 {
+        display: none;
+    }
+
+    .main_t {
+        padding-top: 94px;
+        padding-bottom:440px;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+        display: inline-block;
+        padding-bottom: 3px;
+    }
+
+    .cover{
+        position: absolute;
+        top:245px;
+        right: 0;
+        width: 95%;
+        height: 400px;
+        background-image: url(../img/con1.jpg);
+        background-size: cover;
+    }
+    .jm {
+        width: 6px;
+        margin-top: 25px;
+    }
+
+    .sub_t {
+        width: 100%;
+    }
+
+    .t1 {
+        text-align: justify;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .t1 span {
+        font-weight: 700;
+        color: #FD6DA6;
+    }
+
+
+    .product-title {
+        margin: 30px 0;
+        text-align: left;
+        display: table;
+        width: 100%;
+    }
+
+
+
+    .product-img-div {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .product-img {
+        width: 100%;
+    }
+
+    .title p span:nth-of-type(1) {
+        color: #ff0000;
+        font-weight: 700;
+        width: 20px;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 12px;
+    }
+
+    .title p span:nth-of-type(2) {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .title p:nth-of-type(2) {
+        padding-left: 20px;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+
+
+}
+
+
+@media all and (min-width:1024px) {
+
+    .logo {
+        width: 50px;
+        position: absolute;
+        right: 60px;
+
+    }
+
+    .body1 {
+        width: 60%;
+        min-width: 700px;
+        position: relative;
+        padding: 60px 60px 150px 60px;
+    }
+
+    .body2 {
+        width: 40%;
+        height: 100%;
+        background-image: url(../img/con1.jpg);
+        background-size: cover;
+        background-position: center;
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+
+    .main_t {
+        padding-top: 200px;
+        padding-bottom: 50px;
+    }
+
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+        display: inline-block;
+    }
+
+
+    .jm {
+        width: 10px;
+        margin-top: 40px;
+    }
+
+    .sub_t {
+        width: 80%;
+        max-width: 750px;
+    }
+
+    .t1 {
+
+        text-align: justify;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .t1 span {
+        font-weight: 700;
+        color: #FD6DA6;
+    }
+
+
+
+    .title p span:nth-of-type(1) {
+        color: #ff0000;
+        font-weight: 700;
+        width: 25px;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 15px
+    }
+
+    .title p span:nth-of-type(2) {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .title p:nth-of-type(2) {
+        padding-left: 25px;
+        font-size: 16px;
+        color: #aaaaaa;
+        padding-top: 3px;
+    }
+
+    .product-title {
+        margin: 30px 0;
+        text-align: left;
+        display: table;
+        width: 100%;
+    }
+
+
+
+    .product-img-div {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .product-img {
+        max-width: 450px;
+    }
+
+    .sub_text {
+        color: #ccc;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    footer {
+        width: 100%;
+        padding: 60px;
+        background: #efefef;
+    }
+
+
+}
