@@ -16,68 +16,169 @@ body {
     font-family: 'Pretendard', 'Akrobat', 'Apple SD Gothic Neo', Sans-serif;
 }
 
-.remote {
+.sidenav {
+    height: 100%;
+    width: 40%;
     position: fixed;
+    z-index: 3000;
+    top: 0;
     right: 0;
-    bottom: 0;
-    width: 70px;
-    background: #ccc;
-    z-index: 2000;
+    background-color: #fafafa;
+    overflow-x: hidden;
+    transition: 0.5s;
+    display: none;
 }
 
-.remote_1 {
+.sidenav .inner {
+    padding: 60px;
+    height: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    border-left: 1px solid #ededed;
+}
+
+.remote_2 {
     padding: 10px;
     width: 70px;
     background: #FF6DA6;
     border-bottom: 1px solid rgba(255, 255, 255, 0.36);
+    position: fixed;
+    right: 0;
+    top: 0;
 }
-    .next h2 {
-        display: inline-block;
-        font-size: 20px;
-        font-weight: 700;
 
-    }
 
-    .next {
-        border-bottom: 1px solid #000;
-        display: inline-block;
-        padding-bottom: 10px;
-        float: right;
-        cursor: pointer;
-    }
 
-    .next img {
-        width: 75px;
-        margin-top: 5px;
-        padding-left: 7px;
-    }
 
-    footer {
-        width: 100%;
-        padding: 20px;
-        background: #efefef;
-    }
 
-    footer p {
-        font-size: 12px;
-        line-height: 20px;
-        color: #777777;
-    }
+.next h2 {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
 
-    footer p span {
-        font-weight: 800;
-        margin-right: 10px;
-        color: #777777;
-    }
+}
+
+.next {
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    padding-bottom: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.next img {
+    width: 70px;
+    margin-top: 6px;
+    padding-left: 10px;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background: #efefef;
+}
+
+footer p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #777777;
+}
+
+footer p span {
+    font-weight: 800;
+    margin-right: 10px;
+    color: #777777;
+}
 
 
 
 @media all and (max-width:1023px) {
 
+
+
+    .sidenav {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 3000;
+        top: 0;
+        right: 0;
+        background-color: #fafafa;
+        overflow-x: hidden;
+        transition: 0.5s;
+        display: none;
+    }
+
+    .sidenav .inner {
+        padding: 100px 20px 20px;
+        height: 100%;
+        max-width: 1080px;
+        margin: 0 auto;
+
+    }
+
+
+    table {
+        width: 100%;
+        text-align: left;
+
+        font-size: 15px;
+
+        font-weight: 500;
+
+    }
+
+    tr:nth-of-type(1) th {
+        padding-top: 0;
+    }
+
+    th {
+        padding: 13px 0;
+        font-size: 16px;
+        border-bottom: 1px solid #ededed;
+    }
+
+
+
+    th a {
+        font-weight: 500;
+    }
+
+    th span {
+        color: #ff0000;
+        font-weight: 700;
+        padding-right: 15px;
+        display: inline-block;
+        font-size: 1px;
+        vertical-align: 6px;
+    }
+
+    .remote {
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 70px;
+        z-index: 2000;
+    }
+
+    .remote_1 {
+        padding: 10px;
+        width: 70px;
+        background: #FF6DA6;
+    }
+
+    .remote .remote_1:nth-of-type(2) {
+        display: none;
+    }
+
+    .remote .remote_1:nth-of-type(3) {
+        display: none;
+    }
+
     .logo {
         width: 40px;
         position: absolute;
-        right: 20px;
+        left: 20px;
         top: 20px;
     }
 
@@ -92,8 +193,8 @@ body {
     }
 
     .main_t {
-        padding-top: 94px;
-        padding-bottom:440px;
+        padding-top: 60px;
+        padding-bottom: 440px;
     }
 
     h1 {
@@ -103,15 +204,16 @@ body {
         padding-bottom: 3px;
     }
 
-    .cover{
+    .cover {
         position: absolute;
-        top:245px;
+        top: 280px;
         right: 0;
         width: 95%;
         height: 400px;
         background-image: url(../img/con1.jpg);
         background-size: cover;
     }
+
     .jm {
         width: 6px;
         margin-top: 25px;
@@ -151,6 +253,10 @@ body {
         width: 100%;
     }
 
+    .title {
+        padding-top: 70px;
+    }
+
     .title p span:nth-of-type(1) {
         color: #ff0000;
         font-weight: 700;
@@ -177,6 +283,58 @@ body {
 
 
 @media all and (min-width:1024px) {
+
+
+    table {
+        width: 100%;
+        text-align: left;
+
+        font-size: 15px;
+
+        font-weight: 500;
+
+    }
+
+    tr:nth-of-type(1) th {
+        padding-top: 0;
+    }
+
+    th {
+        padding: 13px 0;
+        font-size: 20px;
+        border-bottom: 1px solid #ededed;
+    }
+
+
+
+    th a {
+        font-weight: 500;
+    }
+
+    th span {
+        color: #ff0000;
+        font-weight: 800;
+        padding-right: 15px;
+        display: inline-block;
+        font-size: 11px;
+        vertical-align: 6px;
+    }
+
+    .remote {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 70px;
+        background: #ccc;
+        z-index: 2000;
+    }
+
+    .remote_1 {
+        padding: 10px;
+        width: 70px;
+        background: #FF6DA6;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.36);
+    }
 
     .logo {
         width: 50px;
