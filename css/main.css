@@ -64,7 +64,7 @@ tr:nth-of-type(1) th {
 
 th {
     padding: 13px 0;
-    font-size: 20px;
+    font-size: 16px;
     border-bottom: 1px solid #ededed;
 }
 
@@ -79,8 +79,7 @@ th span {
     font-weight: 800;
     padding-right: 15px;
     display: inline-block;
-    font-size: 11px;
-    vertical-align: 6px;
+    font-size: 16px;
 }
 
 @media all and (max-width:1023px) {
