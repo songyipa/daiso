@@ -202,10 +202,15 @@ footer p span {
         display: inline-block;
         padding-bottom: 3px;
     }
-
+    h4{
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #989898;
+    }
     .cover {
         position: absolute;
-        top: 280px;
+        top: 315px;
         right: 0;
         width: 95%;
         height: 400px;
@@ -218,6 +223,13 @@ footer p span {
         margin-top: 25px;
         margin-left: 3px;
     }
+    
+            .jm3 {
+        width: 13px;
+            margin-top: 6px;
+            margin-left: 4px;
+    }
+
 
     .sub_t {
         width: 100%;
@@ -373,11 +385,23 @@ footer p span {
         display: inline-block;
     }
 
-
+    h4{
+        margin-top: 10px;
+        font-size: 17px;
+        font-weight: 600;
+        color: #989898;
+    }
     .jm {
         width: 10px;
         margin-top: 40px;
     }
+    
+        .jm3 {
+        width: 20px;
+            margin-top: 12px;
+            margin-left: 6px;
+    }
+
 
     .sub_t {
         width: 80%;
